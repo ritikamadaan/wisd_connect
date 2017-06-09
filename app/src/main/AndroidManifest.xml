@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.compaq.connect">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ShwetaAct"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".WebActivity" />
+        <activity android:name=".PolicyActivity" />
+        <activity android:name=".LogoutActivity" />
+        <activity android:name=".EngineerActivity" />
+        <activity android:name=".ArchitectActivity" />
+        <activity android:name=".MedicineActivity" />
+        <activity android:name=".MastersbusActivity" />
+        <activity android:name=".LawyerActivity" />
+        <activity android:name=".MascomputerActivity" />
+        <activity android:name=".UnionpActivity" />
+        <activity android:name=".ChaccountActivity" />
+        <activity android:name=".CompanyfActivity" />
+        <activity android:name=".ForlangActivity" />
+        <activity android:name=".CourseTypeActivity" />
+        <activity android:name=".ClassTypeActivity" />
+        <activity android:name=".LocationclassesActivity" />
+        <activity android:name=".DesigncourseActivity" />
+        <activity android:name=".RangeActivity" />
+        <activity android:name=".ZoomImage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChooseActivity" />
+        <activity android:name=".UsActivity" />
+        <activity android:name=".StartingActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".InviteFriendsActivity"></activity>
+<activity android:name=".SecondaryMainActivity"/>
+        <activity android:name=".PrimaryClassActivity"/>
+        <activity android:name=".PrimaryMainActivity"/>
+        <activity android:name=".PrimaryGradeActivity"/>
+        <activity android:name=".HigherSecGradeActivity"/>
+        <activity android:name=".HigherSecMainActivity"/>
+        <activity android:name=".GradeActivity" />
+        <activity android:name=".PlayVideo" />
+        <activity android:name=".PlayVideo2" />
+        <activity android:name=".PlayVideo3" />
+<activity android:name=".sawww"/>
+<activity android:name=".ScienceActivity" />
+        <activity android:name=".ArtsActivity" />
+        <activity android:name=".CommerceActivity" />
+        <activity android:name=".LawActivity" />
+
+        <activity android:name=".ScienceshivActivity" />
+        <activity android:name=".ArtsshivActivity" />
+        <activity android:name=".CommerceshivActivity" />
+        <activity android:name=".LawshivActivity" />
+
+        <activity android:name=".EngineershivActivity" />
+        <activity android:name=".MainshivActivity" />
+        <activity android:name=".ManagementshivActivity" />
+        <activity android:name=".MedicalshivActivity" />
+
+        <activity android:name=".TechnologyshivActivity" />
+
+
+    </application>
+
+</manifest>

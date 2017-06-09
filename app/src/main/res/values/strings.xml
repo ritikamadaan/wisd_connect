@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WisdomConnect</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="terms_and_conditions">Terms and conditions</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="please_read_the_terms_and_conditions_carefully">Please read the terms and conditions carefully</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
